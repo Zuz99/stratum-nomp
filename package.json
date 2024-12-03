@@ -1,0 +1,48 @@
+{
+    "name": "stratum-pool",
+    "version": "0.0.1",
+    "description": "High performance Stratum poolserver in Node.js",
+    "keywords": [
+        "stratum",
+        "mining",
+        "pool",
+        "server",
+        "poolserver",
+        "bitcoin",
+        "litecoin",
+        "scrypt",
+        "yespower",
+        "lyra2re2"
+    ],
+    "homepage": "https://github.com/digvpn/node-stratum-pool-1",
+    "bugs": {
+        "url": "https://github.com/digvpn/node-stratum-pool-1/issues"
+    },
+    "license": "GPL-2.0",
+    "author": "Matthew Little",
+    "contributors": [
+        "vekexasia",
+        "TheSeven"
+    ],
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/digvpn/node-stratum-pool-1.git"
+    },
+    "dependencies": {
+        "async": "^3.2.0",
+        "base58-native": "^0.1.4",
+        "bchaddrjs": "^0.4.9",
+        "bignum": "^0.13.1",
+        "bitcoinjs-lib": "^5.1.10",
+		"node-multi-hashing": "git+https://github.com/digvpn/node-multi-hashing",
+		"bitgo-utxo-lib": "git+https://github.com/miketout/bitgo-utxo-lib.git",
+        "equihashverify": "git+https://github.com/s-nomp/equihashverify.git",
+        "verushash": "git+https://github.com/VerusCoin/verushash-node#e6572f345b8c24e4a1212f6c9eb66c1c400d83e1",
+        "merkle-bitcoin": "^1.0.2",
+        "promise": "^8.0.1"
+    },
+    "engines": {
+        "node": ">=8.17"
+    }
+}
