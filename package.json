@@ -35,7 +35,8 @@
         "bchaddrjs": "^0.4.9",
         "bignum": "^0.13.1",
         "bitcoinjs-lib": "^5.1.10",
-		"bitgo-utxo-lib": "git+https://github.com/Zuz99/bitgo-utxo-lib.git",
+	"bitgo-utxo-lib": "git+https://github.com/Zuz99/bitgo-utxo-lib.git",
+	"multi-hashing": "git+https://github.com/Zuz99/multi-hashing.git",
         "merkle-bitcoin": "*",
         "promise": "^8.0.1"
     },
